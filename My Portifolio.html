@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Enock Wekesa's professional website showcasing skills in mobile app development and computer science expertise.">
+    <title>Enock Wekesa - Professional Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: white;
+            overflow: hidden;
+        }
+
+        /* Background Video */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1; /* Makes sure the video stays behind all content */
+        }
+
+        nav {
+            background-color: rgba(39, 174, 96, 0.8); /* Green background with transparency */
+            overflow: hidden;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background-color: #e74c3c; /* Red on hover */
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for text visibility */
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: rgba(244, 244, 244, 0.9); /* Transparent white background */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .container h2 {
+            font-size: 2.5rem;
+            color: #333;
+            text-align: center;
+        }
+
+        .container p {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            text-align: justify;
+            margin: 20px 0;
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .contact-info a {
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            color: #16a085;
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        #return-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #27ae60;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        #return-to-top:hover {
+            background-color: #16a085;
+        }
+
+        .social-media-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .social-media-container i {
+            font-size: 3rem;
+            transition: transform 0.3s ease;
+        }
+
+        .social-media-container i:hover {
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .container,
+            .contact-info {
+                padding: 20px;
+                margin: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Background Video -->
+    <video autoplay muted loop class="video-background">
+        <source src="226180_small (1).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <div>
+            <h1>Enock Wekesa</h1>
+            <p>Mobile App Developer | Computer Science Enthusiast | Freelancer</p>
+        </div>
+    </section>
+
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p><strong>NAME:</strong> Enock Wekesa</p>
+        <p><strong>STUDYING AT:</strong> Kibabii University</p>
+        <p><strong>COURSE PARTAKING:</strong> Computer Science</p>
+        <p><strong>BASED SKILLS:</strong> Mobile App Development, Web Development, Problem Solving | Freelancing</p>
+        <p><strong>SPENDING TIME MOSTLY ON:</strong> Reading, Learning New Technologies, Coding Challenges</p>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> <a href="mailto:wenock033@gmail.com">wenock033@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+25746636761">0746636761</a></p>
+    </div>
+
+    <!-- Social Media Links with Real Logos -->
+    <div class="social-media-container">
+        <a href="https://www.facebook.com/profile.php?id=61564945658065" target="_blank">
+            <i class="fab fa-facebook-square" style="color: #1877F2;"></i>
+        </a>
+        <a href="https://x.com/EnockWaken" target="_blank">
+            <i class="fab fa-x" style="color: black;"></i>
+        </a>
+        <a href="https://www.instagram.com/wenock033/" target="_blank">
+            <i class="fab fa-instagram" style="color: #E4405F;"></i>
+        </a>
+    </div>
+
+    <button id="return-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Return to Top</button>
+
+    <footer>
+        <p>&copy; 2024 Enock Wekesa. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

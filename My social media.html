@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your name - About Me</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        /* Video Background */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+            padding-top: 150px;
+        }
+        .social-links a {
+            margin: 20px;
+            font-size: 40px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            transition: transform 0.3s ease-in-out, color 0.3s ease;
+            color: white;
+        }
+        .social-links a i {
+            margin-right: 10px;
+        }
+        .social-links a:hover {
+            transform: scale(1.2);
+            color: white;
+        }
+        /* Parallax Scrolling */
+        .parallax {
+            background-image: url('robot-1658023_1280.JPG');
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding-top: 200px;
+        }
+        .parallax2 {
+            background-image: url('pic8.JPG');
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding-top: 200px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <video class="video-background" autoplay muted loop>
+        <source src="208674_medium.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="content">
+        <h1>Welcome to My Website!</h1>
+        <br><br>
+        <h3><p>Hi, I'm Enock Wekesa, a Computer Science student.</p></h3>
+        <br>
+        <div class="social-links">
+            <a href="https://www.facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://x.com/yourprofile" target="_blank"><i class="fab fa-x-twitter"></i> X</a>
+        </div>
+    </div>
+    <div class="parallax">
+        <h2>Robots and Technology</h2>
+        <p>I'm Enock, a Computer Science student passionate about technology, especially robotics...</p>
+    </div>
+    <div class="parallax2">
+        <h2>Innovating the Future with Technology</h2>  
+        <p>From coding to problem-solving, my passion for computer science drives me to create...</p>
+    </div>
+</body>
+</html>
