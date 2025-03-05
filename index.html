@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: black;
+            color: white;
+            overflow-y: auto;
+            position: relative;
+        }
+        .video-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header h3 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            color: hwb(357 5% 13%);
+            text-decoration: underline;
+        }
+        section {
+            text-align: left;
+            margin-top: 20px;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .images img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 5px;
+        }
+        .video-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .video-container video {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <video class="video-bg" src="225826_small.mp4" autoplay loop muted></video>
+    <div class="container">
+        <header>
+            <h1>My Website</h1>
+            <h2>Undergraduate BSc. Computer Science</h2>
+        </header>
+        <nav>
+            <a href="My Portifolio.html">Click here to see my Portifolio</a>
+            <a href="My social media.html">Click here to find my social media platforms</a>
+            <br>
+        </nav>
+        <section>
+            <h3><p><i>Im Enock, Welcome to my portfolio, where I focus on skill-building and teaching.
+            </i></p>
+            <br>
+                <p></h3><b>Areas of expertise:</b></p>
+            <ul>
+                <li>Computer Science</li>
+
+                <li>Software Engineering</li>
+
+                <li>Mathematics</li>
+            </ul>
+            <br>
+            <p>I Studied the following subjects:</p>
+            <ol>
+                <li>Mathematics</li>
+
+                <li>Science</li>
+
+                <li>English</li>
+            </ol>
+            <div class="images">                
+            </div>
+            <div class="video-container">                        
+            </div>
+        </section>
+    </div>
+</body>
+</html>
